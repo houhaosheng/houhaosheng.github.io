@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://houhaosheng.github.io/sitemap.xml 
