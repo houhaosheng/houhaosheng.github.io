@@ -4,7 +4,7 @@
   <title><![CDATA[Auf das Leben!]]></title>
   <link href="http://houhaosheng.github.io/atom.xml" rel="self"/>
   <link href="http://houhaosheng.github.io/"/>
-  <updated>2015-10-05T12:19:45+02:00</updated>
+  <updated>2015-10-05T12:29:43+02:00</updated>
   <id>http://houhaosheng.github.io/</id>
   <author>
     <name><![CDATA[Haosheng Hou]]></name>
@@ -12,24 +12,5 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Vim Notes(1): Lowercase/Uppercase]]></title>
-    <link href="http://houhaosheng.github.io/blog/vim-notes-1-lowercase-slash-uppercase.html/"/>
-    <updated>2015-10-04T19:58:12+02:00</updated>
-    <id>http://houhaosheng.github.io/blog/vim-notes-1-lowercase-slash-uppercase</id>
-    <content type="html"><![CDATA[<p>In order to change the case of the whole document in vi, the following commands can do that trick easily:</p>
-
-<p>in lowercase:</p>
-
-<pre><code>:%s/.*/\L&amp;/ 
-</code></pre>
-
-<p>in uppercase:</p>
-
-<pre><code>:%s/.*/\U&amp;/ 
-</code></pre>
-]]></content>
-  </entry>
   
 </feed>
