@@ -4,7 +4,7 @@
   <title><![CDATA[Categoriesvim | Auf das Leben!]]></title>
   <link href="http://houhaosheng.github.io/blog/categories/vim/atom.xml" rel="self"/>
   <link href="http://houhaosheng.github.io/"/>
-  <updated>2015-10-09T14:30:00+02:00</updated>
+  <updated>2015-10-09T14:43:36+02:00</updated>
   <id>http://houhaosheng.github.io/</id>
   <author>
     <name><![CDATA[Haosheng Hou]]></name>
@@ -14,11 +14,13 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Vim Notes(1): Lowercase/Uppercase]]></title>
+    <title type="html"><![CDATA[Vim Notes]]></title>
     <link href="http://houhaosheng.github.io/blog/2015/10/04/vim-notes-1-lowercase-slash-uppercase/"/>
     <updated>2015-10-04T19:58:12+02:00</updated>
     <id>http://houhaosheng.github.io/blog/2015/10/04/vim-notes-1-lowercase-slash-uppercase</id>
-    <content type="html"><![CDATA[<p>In order to change the case of the whole document in vi, the following commands can do that trick easily:</p>
+    <content type="html"><![CDATA[<h1>Lowercase/Uppercase</h1>
+
+<p>In order to change the case of the whole document in vi, the following commands can do that trick easily.</p>
 
 <p>in lowercase:</p>
 
@@ -28,6 +30,13 @@
 <p>in uppercase:</p>
 
 <pre><code>:%s/.*/\U&amp;/ 
+</code></pre>
+
+<h1>Show line numbers</h1>
+
+<p>If you wanna show the line numbers in vi environment, just type in the following command.</p>
+
+<pre><code>:set nu
 </code></pre>
 ]]></content>
   </entry>
