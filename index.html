@@ -142,34 +142,40 @@
 
 <h2>7.Always Optimize Your Code and Speedup</h2>
 
-<pre><code>:‘turn off some Excel functionality so your code runs faster
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+</pre></td><td class='code'><pre><code class='VB.net'><span class='line'><span class="err">‘</span><span class="n">turn</span> <span class="n">off</span> <span class="n">some</span> <span class="n">Excel</span> <span class="n">functionality</span> <span class="n">so</span> <span class="n">your</span> <span class="n">code</span> <span class="n">runs</span> <span class="n">faster</span>
+</span><span class='line'><span class="n">Application</span><span class="p">.</span><span class="n">ScreenUpdating</span> <span class="o">=</span> <span class="k">False</span>
+</span><span class='line'><span class="n">Application</span><span class="p">.</span><span class="n">DisplayStatusBar</span> <span class="o">=</span> <span class="k">False</span>
+</span><span class='line'><span class="n">Application</span><span class="p">.</span><span class="n">Calculation</span> <span class="o">=</span> <span class="n">xlCalculationManual</span>
+</span><span class='line'><span class="n">Application</span><span class="p">.</span><span class="n">EnableEvents</span> <span class="o">=</span> <span class="k">False</span>
+</span><span class='line'><span class="n">ActiveSheet</span><span class="p">.</span><span class="n">DisplayPageBreaks</span> <span class="o">=</span> <span class="k">False</span>      <span class="err">‘</span><span class="n">note</span> <span class="n">this</span> <span class="ow">is</span> <span class="n">a</span> <span class="n">sheet</span><span class="o">-</span><span class="n">level</span> <span class="n">setting</span>
+</span><span class='line'>  
+</span><span class='line'><span class="err">‘</span><span class="n">Your</span> <span class="n">code</span> <span class="n">here</span>
+</span><span class='line'>  
+</span><span class='line'><span class="err">‘</span><span class="n">after</span> <span class="n">your</span> <span class="n">code</span> <span class="n">runs</span><span class="p">,</span> <span class="n">restore</span> <span class="n">state</span><span class="err">;</span> <span class="n">put</span> <span class="n">this</span> <span class="n">at</span> <span class="n">the</span> <span class="k">end</span> <span class="k">of</span> <span class="n">your</span> <span class="n">code</span>
+</span><span class='line'><span class="n">Application</span><span class="p">.</span><span class="n">ScreenUpdating</span> <span class="o">=</span> <span class="n">screenUpdateState</span>
+</span><span class='line'><span class="n">Application</span><span class="p">.</span><span class="n">DisplayStatusBar</span> <span class="o">=</span> <span class="n">statusBarState</span>
+</span><span class='line'><span class="n">Application</span><span class="p">.</span><span class="n">Calculation</span> <span class="o">=</span> <span class="n">calcState</span>
+</span><span class='line'><span class="n">Application</span><span class="p">.</span><span class="n">EnableEvents</span> <span class="o">=</span> <span class="n">eventsState</span>
+</span><span class='line'><span class="n">ActiveSheet</span><span class="p">.</span><span class="n">DisplayPageBreaks</span> <span class="o">=</span> <span class="n">displayPageBreaksState</span>   <span class="err">‘</span><span class="n">note</span> <span class="n">this</span> <span class="ow">is</span> <span class="n">a</span> <span class="n">sheet</span><span class="o">-</span><span class="n">level</span> <span class="n">setting</span>
+</span></code></pre></td></tr></table></div></figure>
 
-:Application.ScreenUpdating = False
-
-:Application.DisplayStatusBar = False
-
-:Application.Calculation = xlCalculationManual
-
-:Application.EnableEvents = False
-
-:ActiveSheet.DisplayPageBreaks = False      ‘note this is a sheet-level setting
 
 
-:‘Your code here
-
-
-:‘after your code runs, restore state; put this at the end of your code
-
-:Application.ScreenUpdating = screenUpdateState
-
-:Application.DisplayStatusBar = statusBarState
-
-:Application.Calculation = calcState
-
-:Application.EnableEvents = eventsState
-
-:ActiveSheet.DisplayPageBreaks = displayPageBreaksState   ‘note this is a sheet-level setting 
-</code></pre>
 </div>
   
   
