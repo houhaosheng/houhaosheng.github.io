@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categoriesmac | Auf das Leben!]]></title>
+  <link href="http://houhaosheng.github.io/blog/categories/mac/atom.xml" rel="self"/>
+  <link href="http://houhaosheng.github.io/"/>
+  <updated>2015-11-14T21:29:33+01:00</updated>
+  <id>http://houhaosheng.github.io/</id>
+  <author>
+    <name><![CDATA[Haosheng Hou]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Setup Workflow on Mac With Automator]]></title>
+    <link href="http://houhaosheng.github.io/blog/2015/11/14/setup-workflow-on-mac-with-automator/"/>
+    <updated>2015-11-14T20:02:05+01:00</updated>
+    <id>http://houhaosheng.github.io/blog/2015/11/14/setup-workflow-on-mac-with-automator</id>
+    <content type="html"><![CDATA[<p>As this may sounds familier to all of you: before I start doing my work, I just use 5 minutes to check out the new post on Facebook or Twitter. And a hour has passed, you are kind of &ldquo;stuck to&rdquo; the virtual circle of intersting things. This happens to me all the time. Works are always be postponed, things remain undone, life sucks.</p>
+
+<p>I think the most exciting and frustrating thing about Mac is that, you don&rsquo;t need to shut down it. If you were social-networking, the next time you open up you Mac, you will directly be in the same status. However, if you think on the opposite way, you will discover that the work you left there yesterday are still there. Instead of seeing social network page on the first sight, you will continue to do your work instantly.</p>
+
+<p>Workflow maybe the best thing I could think of to avoid distraction. With one click or type in the terminal some command, you will quickly pick up the work you left and get in the mood of working.</p>
+]]></content>
+  </entry>
+  
+</feed>
