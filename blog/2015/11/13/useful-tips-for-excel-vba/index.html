@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Auf das Leben!</title>
+  <title>Useful Tips for Excel VBA - Auf das Leben!</title>
   <meta name="author" content="Haosheng Hou">
 
   
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://houhaosheng.github.io/">
+  <link rel="canonical" href="http://houhaosheng.github.io/blog/2015/11/13/useful-tips-for-excel-vba/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Auf das Leben!" type="application/atom+xml">
@@ -77,15 +77,12 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2015/11/13/useful-tips-for-excel-vba/">Useful Tips for Excel VBA</a></h1>
+      <h1 class="entry-title">Useful Tips for Excel VBA</h1>
     
     
       <p class="meta">
@@ -101,7 +98,7 @@
   </header>
 
 
-  <div class="entry-content"><p>Recently I&rsquo;ve been working intensively with Excel VBA to achieve some automation of data processing and analysing. During my first approches to use VBA, I found some really useful tips for newbies in this area.</p>
+<div class="entry-content"><p>Recently I&rsquo;ve been working intensively with Excel VBA to achieve some automation of data processing and analysing. During my first approches to use VBA, I found some really useful tips for newbies in this area.</p>
 
 <h2>1.Think Before Coding.</h2>
 
@@ -171,66 +168,60 @@
 :ActiveSheet.DisplayPageBreaks = displayPageBreaksState   ‘note this is a sheet-level setting 
 </code></pre>
 </div>
-  
-  
 
 
-    </article>
-  
-  
-    <article>
+  <footer>
+    <p class="meta">
       
-  <header>
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Haosheng Hou</span></span>
+
+      
+
+
+
+
+<time class='entry-date' datetime='2015-11-13T22:52:37+01:00'><span class='date'><span class='date-month'>Nov</span> <span class='date-day'>13</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>10:52 pm</span></time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/excel/'>excel</a>, <a class='category' href='/blog/categories/vba/'>vba</a>
+  
+</span>
+
+
+    </p>
     
-      <h1 class="entry-title"><a href="/blog/2015/10/04/vim-notes/">Vim Notes</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2015-10-04T19:58:12+02:00'><span class='date'><span class='date-month'>Oct</span> <span class='date-day'>4</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>7:58 pm</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h2>1.Lowercase/Uppercase</h2>
-
-<p>In order to change the case of the whole document in vi, the following commands can do that trick easily.</p>
-
-<p>in lowercase:</p>
-
-<pre><code>:%s/.*/\L&amp;/ 
-</code></pre>
-
-<p>in uppercase:</p>
-
-<pre><code>:%s/.*/\U&amp;/ 
-</code></pre>
-
-<h2>2.Show line numbers</h2>
-
-<p>If you wanna show the line numbers in vi environment, just type in the following command.</p>
-
-<pre><code>:set nu
-</code></pre>
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://houhaosheng.github.io/blog/2015/11/13/useful-tips-for-excel-vba/" data-via="houhaosheng" data-counturl="http://houhaosheng.github.io/blog/2015/11/13/useful-tips-for-excel-vba/" >Tweet</a>
+  
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
 </div>
-  
-  
 
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2015/10/04/vim-notes/" title="Previous Post: Vim Notes">&laquo; Vim Notes</a>
+      
+      
+    </p>
+  </footer>
+</article>
 
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
+  </section>
+
+</div>
+
 <aside class="sidebar">
   
     <section>
@@ -264,6 +255,7 @@
   
 </aside>
 
+
     </div>
   </div>
   <footer role="contentinfo"><p>
@@ -278,7 +270,10 @@
       var disqus_shortname = 'houhaosheng';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://houhaosheng.github.io/blog/2015/11/13/useful-tips-for-excel-vba/';
+        var disqus_url = 'http://houhaosheng.github.io/blog/2015/11/13/useful-tips-for-excel-vba/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
