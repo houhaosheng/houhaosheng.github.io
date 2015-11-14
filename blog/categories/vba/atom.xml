@@ -4,7 +4,7 @@
   <title><![CDATA[Categoriesvba | Auf das Leben!]]></title>
   <link href="http://houhaosheng.github.io/blog/categories/vba/atom.xml" rel="self"/>
   <link href="http://houhaosheng.github.io/"/>
-  <updated>2015-11-14T18:16:54+01:00</updated>
+  <updated>2015-11-14T18:29:32+01:00</updated>
   <id>http://houhaosheng.github.io/</id>
   <author>
     <name><![CDATA[Haosheng Hou]]></name>
@@ -59,34 +59,25 @@
 
 <h2>7.Always Optimize Your Code and Speedup</h2>
 
-<pre><code>:‘turn off some Excel functionality so your code runs faster
+<p>{% codeblock [lang:aspx-vb] [title] [url] [link text] %}</p>
 
-:Application.ScreenUpdating = False
+<p>‘turn off some Excel functionality so your code runs faster
+Application.ScreenUpdating = False
+Application.DisplayStatusBar = False
+Application.Calculation = xlCalculationManual
+Application.EnableEvents = False
+ActiveSheet.DisplayPageBreaks = False      ‘note this is a sheet-level setting</p>
 
-:Application.DisplayStatusBar = False
+<p>‘Your code here</p>
 
-:Application.Calculation = xlCalculationManual
+<p>‘after your code runs, restore state; put this at the end of your code
+Application.ScreenUpdating = screenUpdateState
+Application.DisplayStatusBar = statusBarState
+Application.Calculation = calcState
+Application.EnableEvents = eventsState
+ActiveSheet.DisplayPageBreaks = displayPageBreaksState   ‘note this is a sheet-level setting</p>
 
-:Application.EnableEvents = False
-
-:ActiveSheet.DisplayPageBreaks = False      ‘note this is a sheet-level setting
-
-
-:‘Your code here
-
-
-:‘after your code runs, restore state; put this at the end of your code
-
-:Application.ScreenUpdating = screenUpdateState
-
-:Application.DisplayStatusBar = statusBarState
-
-:Application.Calculation = calcState
-
-:Application.EnableEvents = eventsState
-
-:ActiveSheet.DisplayPageBreaks = displayPageBreaksState   ‘note this is a sheet-level setting 
-</code></pre>
+<p>{% endcodeblock %}</p>
 ]]></content>
   </entry>
   
