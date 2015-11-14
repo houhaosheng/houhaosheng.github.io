@@ -4,7 +4,7 @@
   <title><![CDATA[Categoriesvba | Auf das Leben!]]></title>
   <link href="http://houhaosheng.github.io/blog/categories/vba/atom.xml" rel="self"/>
   <link href="http://houhaosheng.github.io/"/>
-  <updated>2015-11-14T18:32:03+01:00</updated>
+  <updated>2015-11-14T18:38:01+01:00</updated>
   <id>http://houhaosheng.github.io/</id>
   <author>
     <name><![CDATA[Haosheng Hou]]></name>
@@ -59,7 +59,7 @@
 
 <h2>7.Always Optimize Your Code and Speedup</h2>
 
-<p>{% codeblock [lang:VbNetAspxLexer] %}</p>
+<p>{% codeblock [lang:vba] %}</p>
 
 <p>‘turn off some Excel functionality so your code runs faster
 Application.ScreenUpdating = False
