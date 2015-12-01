@@ -4,7 +4,7 @@
   <title><![CDATA[Categoriesmac | Auf das Leben!]]></title>
   <link href="http://houhaosheng.github.io/blog/categories/mac/atom.xml" rel="self"/>
   <link href="http://houhaosheng.github.io/"/>
-  <updated>2015-12-01T23:15:22+01:00</updated>
+  <updated>2015-12-01T23:18:01+01:00</updated>
   <id>http://houhaosheng.github.io/</id>
   <author>
     <name><![CDATA[Haosheng Hou]]></name>
@@ -27,9 +27,9 @@
 <p>The workflow to quit all Applications:</p>
 
 <blockquote><ol>
-<li>Open Automator and choose workflow</li>
-<li>In the Library, choose Utilities, then drag 「Quit all Applications」to the right</li>
-<li>If you wanna keep some App open, just hit 「Add current Applications」</li>
+<li><p>Open Automator and choose workflow</p></li>
+<li><p>In the Library, choose Utilities, then drag 「Quit all Applications」to the right</p></li>
+<li><p>If you wanna keep some App open, just hit 「Add current Applications」</p></li>
 </ol>
 </blockquote>
 
