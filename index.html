@@ -101,9 +101,7 @@
   </header>
 
 
-  <div class="entry-content"><p>After getting into college, my life starts on a flying mode. This freaks me out sometimes. That’s why I tend to make plans for everything I might want to do in the next period. Although some of them did not goes out as I planned or expected, but as the saying goes, 「Never go out there with a solid plan.」</p>
-
-</div>
+  <div class="entry-content"><p>After getting into college, my life starts on a flying mode. This freaks me out sometimes. That’s why I tend to make plans for everything I might want to do in the next period. Although some of them did not goes out as I planned or expected, but as the saying goes, 「Never go out there with a solid plan.」</div>
   
   
     <footer>
@@ -166,33 +164,12 @@
   </header>
 
 
-  <div class="entry-content"><p>As this may sounds familier to all of you: before I start doing my work, I just use 5 minutes to check out the new post on Facebook or Twitter. And a hour has passed, you are kind of &ldquo;stuck to&rdquo; the virtual circle of intersting things. This happens to me all the time. Works are always be postponed, things remain undone, life sucks.</p>
-
-<p>I think the most exciting and frustrating thing about Mac is that, you don&rsquo;t need to shut down. If you were social-networking, the next time you open up you Mac, you will directly be in the same status. However, if you think on the opposite way, you will discover that the work you left there yesterday are still there. Instead of seeing social network page on the first sight, you will continue to do your work instantly.</p>
-
-<p>Workflow maybe the best thing I could think of to avoid distraction. With one click or type in the terminal some command, you will quickly pick up the work you left and get in the mood of working.Here goes how:</p>
-
-<p>The workflow to quit all Applications:</p>
-
-<blockquote><ol>
-<li><p>Open Automator and choose workflow</p></li>
-<li><p>In the Library, choose Utilities, then drag 「Quit all Applications」to the right</p></li>
-<li><p>If you wanna keep some App open, just hit 「Add current Applications」</p></li>
-</ol>
-</blockquote>
-
-<p>The workflow to open certain bundle of Applications is basically the same procedure, one can explore a little bit.</p>
-
-<p>cmd+s to save the work flow and just pin it somewhere handy, dock seems to be a excellent choice.  Or if you prefer the using of Terminal, you can type in the following command:</p>
-
-<pre><code>automator yourworkflow.workflow
-</code></pre>
-
-<p>in the path where you saved your workflow.</p>
-
-<p>There&rsquo;s also a tip for setting workflow. You have to know exactly what you gonna do with your Mac, probably write all the Application you need and the sequence maybe on Notes, and then set up the workflow. As always, with explicit target, you can avoid wasting time.</p>
-</div>
+  <div class="entry-content"><p>As this may sounds familier to all of you: before I start doing my work, I just use 5 minutes to check out the new post on Facebook or Twitter. And a hour has passed, you are kind of &ldquo;stuck to&rdquo; the virtual circle of intersting things. This happens to me all the time. Works are always be postponed, things remain undone, life sucks.</div>
   
+  
+    <footer>
+      <a rel="full-article" href="/blog/setup-workflow-on-mac-with-automator.html">Read on &rarr;</a>
+    </footer>
   
 
 
@@ -219,83 +196,12 @@
   </header>
 
 
-  <div class="entry-content"><p>Recently I&rsquo;ve been working intensively with Excel VBA to achieve some automation of data processing and analysing. During my first approches to use VBA, I found some really useful tips for newbies in this area.</p>
-
-<h3>1.Think Before Coding.</h3>
-
-<p>This is definitely the iron-rule of coding, regardless of the programming language. You have to fully understand what problem are you solving, which function or method do you need exactly for this problem. I will introduce some useful steps for clearing the problem and also get to know what you are really facing in the following text.</p>
-
-<h3>2.Use Immediate Window</h3>
-
-<p>This is a useful function that embedded in Excel. You can get instant result of your command in this window, therefore, it is a really good friend while you are debugging.</p>
-
-<h3>3.Use Debug.Print</h3>
-
-<p>If you don&rsquo;t know what results your stated formula in VBA will get, this is the one command you should turn to for some help. Just simply type in the command and add the variable you want to know after the command.</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='VB.net'><span class='line'><span class="n">Debug</span><span class="p">.</span><span class="n">Print</span> <span class="n">Variable</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<h3>4.Always Break Your Work Into Smaller Pieces</h3>
-
-<p>I will show you how this works through a really simple example. My task would be add a button into the worksheet, it can achieve the function of copying certain range of values and paste it somewhere. I will first disassemble this task into 3 steps.</p>
-
-<blockquote><p>1.Write code about the function of copy and paste</p>
-
-<p>2.Add a button to the worksheet</p>
-
-<p>3.Assign the function to the button</p></blockquote>
-
-<p>Of course, you can further disassemble step one, maybe first learn about the knowledge of &ldquo;Range&rdquo; object. It depends on your level.</p>
-
-<h3>5.Build Iteratively To Fully Understand The Task</h3>
-
-<p>Maybe for people not familier with programming, this is a good approach. For iterative problems, we have to consider all the conditions and loops. With listing some of them without loop, you can get a better and straightforward view of your task. This can save a lot of work if you write your loops wrong and debugging afterwards.</p>
-
-<h3>6.Refer Not Only to Internet, But Also Refer To A Good Book</h3>
-
-<p>Internet is a useful tool for some instant problems. But if you want to use VBA for a long term, you may better invest more time on learning it through a book. To be honest, I don&rsquo;t really have that much time to read the book, but I&rsquo;ve found some really useful conceptural knowledge in the following book.</p>
-
-<blockquote><p>Excel Power Programming with VBA by John Walkenbach</p></blockquote>
-
-<h3>7.Always Optimize Your Code and Speedup</h3>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-</pre></td><td class='code'><pre><code class='VB.net'><span class='line'><span class="err">‘</span><span class="n">turn</span> <span class="n">off</span> <span class="n">some</span> <span class="n">Excel</span> <span class="n">functionality</span> <span class="n">so</span> <span class="n">your</span> <span class="n">code</span> <span class="n">runs</span> <span class="n">faster</span>
-</span><span class='line'><span class="n">Application</span><span class="p">.</span><span class="n">ScreenUpdating</span> <span class="o">=</span> <span class="k">False</span>
-</span><span class='line'><span class="n">Application</span><span class="p">.</span><span class="n">DisplayStatusBar</span> <span class="o">=</span> <span class="k">False</span>
-</span><span class='line'><span class="n">Application</span><span class="p">.</span><span class="n">Calculation</span> <span class="o">=</span> <span class="n">xlCalculationManual</span>
-</span><span class='line'><span class="n">Application</span><span class="p">.</span><span class="n">EnableEvents</span> <span class="o">=</span> <span class="k">False</span>
-</span><span class='line'><span class="n">ActiveSheet</span><span class="p">.</span><span class="n">DisplayPageBreaks</span> <span class="o">=</span> <span class="k">False</span>      <span class="err">‘</span><span class="n">note</span> <span class="n">this</span> <span class="ow">is</span> <span class="n">a</span> <span class="n">sheet</span><span class="o">-</span><span class="n">level</span> <span class="n">setting</span>
-</span><span class='line'>  
-</span><span class='line'><span class="err">‘</span><span class="n">Your</span> <span class="n">code</span> <span class="n">here</span>
-</span><span class='line'>  
-</span><span class='line'><span class="n">Application</span><span class="p">.</span><span class="n">ScreenUpdating</span> <span class="o">=</span> <span class="n">screenUpdateState</span>
-</span><span class='line'><span class="n">Application</span><span class="p">.</span><span class="n">DisplayStatusBar</span> <span class="o">=</span> <span class="n">statusBarState</span>
-</span><span class='line'><span class="n">Application</span><span class="p">.</span><span class="n">Calculation</span> <span class="o">=</span> <span class="n">calcState</span>
-</span><span class='line'><span class="n">Application</span><span class="p">.</span><span class="n">EnableEvents</span> <span class="o">=</span> <span class="n">eventsState</span>
-</span><span class='line'><span class="n">ActiveSheet</span><span class="p">.</span><span class="n">DisplayPageBreaks</span> <span class="o">=</span> <span class="n">displayPageBreaksState</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-
-</div>
+  <div class="entry-content"><p>Recently I&rsquo;ve been working intensively with Excel VBA to achieve some automation of data processing and analysing. During my first approches to use VBA, I found some really useful tips for newbies in this area.</div>
   
+  
+    <footer>
+      <a rel="full-article" href="/blog/useful-tips-for-excel-vba.html">Read on &rarr;</a>
+    </footer>
   
 
 

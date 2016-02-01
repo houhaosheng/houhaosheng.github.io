@@ -4,7 +4,7 @@
   <title><![CDATA[Auf das Leben!]]></title>
   <link href="http://houhaosheng.github.io/atom.xml" rel="self"/>
   <link href="http://houhaosheng.github.io/"/>
-  <updated>2016-02-01T20:38:58+01:00</updated>
+  <updated>2016-02-01T20:43:47+01:00</updated>
   <id>http://houhaosheng.github.io/</id>
   <author>
     <name><![CDATA[Haosheng Hou]]></name>
@@ -18,10 +18,7 @@
     <link href="http://houhaosheng.github.io/blog/2016-new-year-resolution.html"/>
     <updated>2016-01-01T22:10:13+01:00</updated>
     <id>http://houhaosheng.github.io/blog/2016-new-year-resolution</id>
-    <content type="html"><![CDATA[<p>After getting into college, my life starts on a flying mode. This freaks me out sometimes. That’s why I tend to make plans for everything I might want to do in the next period. Although some of them did not goes out as I planned or expected, but as the saying goes, 「Never go out there with a solid plan.」</p>
-
-<!--more-->
-
+    <content type="html"><![CDATA[<p>After getting into college, my life starts on a flying mode. This freaks me out sometimes. That’s why I tend to make plans for everything I might want to do in the next period. Although some of them did not goes out as I planned or expected, but as the saying goes, 「Never go out there with a solid plan.」<!--more--></p>
 
 <p>2015 turned out to be not so great for me. I believe that I messed up things a little bit. With the freedom here I got in German university, I kinda loosen up a bit. And this is definitely have bad influence on me. There are some milestoney events like, breaking up with my girlfriend, passing all exams and getting a internship in the God-forsaken blackforest. For the first half in 2015, I was pretty not happy about it. My whole living routine was struggling with thesis and science projects in college, that was a huge dose of anxiety. The later half turned out a little bit better. I finally passed the toughest exams and got a internship. Big events here is moving, I think, both spatially and spiritually. I had to face the fact that I live alone in the blackforest now and it is perfect for one to do some deep thinking, to literally figure out what’s next and cut out all the unrealistic delusions. Sort of self-sustained in the later half, that’s the big accomplishments for me.</p>
 
@@ -55,7 +52,7 @@
     <link href="http://houhaosheng.github.io/blog/setup-workflow-on-mac-with-automator.html"/>
     <updated>2015-11-14T20:02:05+01:00</updated>
     <id>http://houhaosheng.github.io/blog/setup-workflow-on-mac-with-automator</id>
-    <content type="html"><![CDATA[<p>As this may sounds familier to all of you: before I start doing my work, I just use 5 minutes to check out the new post on Facebook or Twitter. And a hour has passed, you are kind of &ldquo;stuck to&rdquo; the virtual circle of intersting things. This happens to me all the time. Works are always be postponed, things remain undone, life sucks.</p>
+    <content type="html"><![CDATA[<p>As this may sounds familier to all of you: before I start doing my work, I just use 5 minutes to check out the new post on Facebook or Twitter. And a hour has passed, you are kind of &ldquo;stuck to&rdquo; the virtual circle of intersting things. This happens to me all the time. Works are always be postponed, things remain undone, life sucks.<!--more--></p>
 
 <p>I think the most exciting and frustrating thing about Mac is that, you don&rsquo;t need to shut down. If you were social-networking, the next time you open up you Mac, you will directly be in the same status. However, if you think on the opposite way, you will discover that the work you left there yesterday are still there. Instead of seeing social network page on the first sight, you will continue to do your work instantly.</p>
 
@@ -88,7 +85,7 @@
     <link href="http://houhaosheng.github.io/blog/useful-tips-for-excel-vba.html"/>
     <updated>2015-11-13T22:52:37+01:00</updated>
     <id>http://houhaosheng.github.io/blog/useful-tips-for-excel-vba</id>
-    <content type="html"><![CDATA[<p>Recently I&rsquo;ve been working intensively with Excel VBA to achieve some automation of data processing and analysing. During my first approches to use VBA, I found some really useful tips for newbies in this area.</p>
+    <content type="html"><![CDATA[<p>Recently I&rsquo;ve been working intensively with Excel VBA to achieve some automation of data processing and analysing. During my first approches to use VBA, I found some really useful tips for newbies in this area.<!--more--></p>
 
 <h3>1.Think Before Coding.</h3>
 
