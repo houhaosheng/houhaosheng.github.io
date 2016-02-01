@@ -4,7 +4,7 @@
   <title><![CDATA[Auf das Leben!]]></title>
   <link href="http://houhaosheng.github.io/atom.xml" rel="self"/>
   <link href="http://houhaosheng.github.io/"/>
-  <updated>2016-02-01T20:27:34+01:00</updated>
+  <updated>2016-02-01T20:30:01+01:00</updated>
   <id>http://houhaosheng.github.io/</id>
   <author>
     <name><![CDATA[Haosheng Hou]]></name>
@@ -160,6 +160,34 @@
 
 
 
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Vim Learning Notes]]></title>
+    <link href="http://houhaosheng.github.io/blog/vim-notes.html"/>
+    <updated>2015-10-04T19:58:12+02:00</updated>
+    <id>http://houhaosheng.github.io/blog/vim-notes</id>
+    <content type="html"><![CDATA[<h2>1.Lowercase/Uppercase</h2>
+
+<p>In order to change the case of the whole document in vi, the following commands can do that trick easily.</p>
+
+<p>in lowercase:</p>
+
+<pre><code>%s/.*/\L&amp;/ 
+</code></pre>
+
+<p>in uppercase:</p>
+
+<pre><code>%s/.*/\U&amp;/ 
+</code></pre>
+
+<h2>2.Show line numbers</h2>
+
+<p>If you wanna show the line numbers in vi environment, just type in the following command.</p>
+
+<pre><code>set nu
+</code></pre>
 ]]></content>
   </entry>
   
