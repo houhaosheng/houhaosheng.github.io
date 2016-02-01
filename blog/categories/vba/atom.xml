@@ -4,7 +4,7 @@
   <title><![CDATA[Categoriesvba | Auf das Leben!]]></title>
   <link href="http://houhaosheng.github.io/blog/categories/vba/atom.xml" rel="self"/>
   <link href="http://houhaosheng.github.io/"/>
-  <updated>2016-02-01T20:18:32+01:00</updated>
+  <updated>2016-02-01T20:27:34+01:00</updated>
   <id>http://houhaosheng.github.io/</id>
   <author>
     <name><![CDATA[Haosheng Hou]]></name>
@@ -15,7 +15,7 @@
   
   <entry>
     <title type="html"><![CDATA[Useful Tips for Excel VBA]]></title>
-    <link href="http://houhaosheng.github.io/blog/useful-tips-for-excel-vba.html/"/>
+    <link href="http://houhaosheng.github.io/blog/useful-tips-for-excel-vba.html"/>
     <updated>2015-11-13T22:52:37+01:00</updated>
     <id>http://houhaosheng.github.io/blog/useful-tips-for-excel-vba</id>
     <content type="html"><![CDATA[<p>Recently I&rsquo;ve been working intensively with Excel VBA to achieve some automation of data processing and analysing. During my first approches to use VBA, I found some really useful tips for newbies in this area.</p>
