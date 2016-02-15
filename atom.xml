@@ -4,7 +4,7 @@
   <title><![CDATA[Auf das Leben!]]></title>
   <link href="http://houhaosheng.github.io/atom.xml" rel="self"/>
   <link href="http://houhaosheng.github.io/"/>
-  <updated>2016-02-15T22:26:35+01:00</updated>
+  <updated>2016-02-15T22:28:44+01:00</updated>
   <id>http://houhaosheng.github.io/</id>
   <author>
     <name><![CDATA[Haosheng Hou]]></name>
@@ -159,7 +159,7 @@
 
 <h2>7.Always Optimize Your Code and Speedup</h2>
 
-<figure class='code'><figcaption><span>Optimization </span></figcaption>
+<figure class='code'><figcaption><span>Optimization</span></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>

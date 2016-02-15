@@ -4,7 +4,7 @@
   <title><![CDATA[Categoriesprogramming | Auf das Leben!]]></title>
   <link href="http://houhaosheng.github.io/blog/categories/programming/atom.xml" rel="self"/>
   <link href="http://houhaosheng.github.io/"/>
-  <updated>2016-02-15T22:26:35+01:00</updated>
+  <updated>2016-02-15T22:28:44+01:00</updated>
   <id>http://houhaosheng.github.io/</id>
   <author>
     <name><![CDATA[Haosheng Hou]]></name>
@@ -61,7 +61,7 @@
 
 <h2>7.Always Optimize Your Code and Speedup</h2>
 
-<p><figure class='code'><figcaption><span>Optimization </span></figcaption>
+<p><figure class='code'><figcaption><span>Optimization</span></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
@@ -76,13 +76,7 @@
 <span class='line-number'>12</span>
 <span class='line-number'>13</span>
 <span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-</pre></td><td class='code'><pre><code class='VB.net'><span class='line'><span class="na">&lt;/p&gt;</span>
-</span><span class='line'>
-</span><span class='line'><span class="na">&lt;p&gt;</span><span class="err">‘</span><span class="n">turn</span> <span class="n">off</span> <span class="n">some</span> <span class="n">Excel</span> <span class="n">functionality</span> <span class="n">so</span> <span class="n">your</span> <span class="n">code</span> <span class="n">runs</span> <span class="n">faster</span>
+</pre></td><td class='code'><pre><code class='VB.net'><span class='line'><span class="err">‘</span><span class="n">turn</span> <span class="n">off</span> <span class="n">some</span> <span class="n">Excel</span> <span class="n">functionality</span> <span class="n">so</span> <span class="n">your</span> <span class="n">code</span> <span class="n">runs</span> <span class="n">faster</span>
 </span><span class='line'><span class="n">Application</span><span class="p">.</span><span class="n">ScreenUpdating</span> <span class="o">=</span> <span class="k">False</span>
 </span><span class='line'><span class="n">Application</span><span class="p">.</span><span class="n">DisplayStatusBar</span> <span class="o">=</span> <span class="k">False</span>
 </span><span class='line'><span class="n">Application</span><span class="p">.</span><span class="n">Calculation</span> <span class="o">=</span> <span class="n">xlCalculationManual</span>
@@ -95,9 +89,7 @@
 </span><span class='line'><span class="n">Application</span><span class="p">.</span><span class="n">DisplayStatusBar</span> <span class="o">=</span> <span class="n">statusBarState</span>
 </span><span class='line'><span class="n">Application</span><span class="p">.</span><span class="n">Calculation</span> <span class="o">=</span> <span class="n">calcState</span>
 </span><span class='line'><span class="n">Application</span><span class="p">.</span><span class="n">EnableEvents</span> <span class="o">=</span> <span class="n">eventsState</span>
-</span><span class='line'><span class="n">ActiveSheet</span><span class="p">.</span><span class="n">DisplayPageBreaks</span> <span class="o">=</span> <span class="n">displayPageBreaksState</span><span class="o">&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
-</span><span class='line'>
-</span><span class='line'><span class="na">&lt;p&gt;</span>
+</span><span class='line'><span class="n">ActiveSheet</span><span class="p">.</span><span class="n">DisplayPageBreaks</span> <span class="o">=</span> <span class="n">displayPageBreaksState</span><span class="o">&lt;</span><span class="n">br</span><span class="o">/&gt;</span>
 </span></code></pre></td></tr></table></div></figure></p>
 ]]></content>
   </entry>
