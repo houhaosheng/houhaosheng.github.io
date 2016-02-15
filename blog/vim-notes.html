@@ -9,8 +9,7 @@
   <meta name="author" content="Haosheng Hou">
 
   
-  <meta name="description" content="1.Lowercase/Uppercase In order to change the case of the whole document in vi, the following commands can do that trick easily. in lowercase: 1
-2 %s &hellip;">
+  <meta name="description" content="1.Lowercase/Uppercase In order to change the case of the whole document in vi, the following commands can do that trick easily. in lowercase: %s/.*/\ &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -105,12 +104,8 @@
 
 <p>in lowercase:</p>
 
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class='vim'><span class='line'>
-</span><span class='line'>%<span class="k">s</span><span class="sr">/.*/</span>\L&amp;/
-</span></code></pre></td></tr></table></div></figure>
-
+<pre><code>%s/.*/\L&amp;/
+</code></pre>
 
 <p>in uppercase:</p>
 

@@ -4,7 +4,7 @@
   <title><![CDATA[Categorieseditor | Auf das Leben!]]></title>
   <link href="http://houhaosheng.github.io/blog/categories/editor/atom.xml" rel="self"/>
   <link href="http://houhaosheng.github.io/"/>
-  <updated>2016-02-15T22:07:32+01:00</updated>
+  <updated>2016-02-15T22:10:43+01:00</updated>
   <id>http://houhaosheng.github.io/</id>
   <author>
     <name><![CDATA[Haosheng Hou]]></name>
@@ -35,10 +35,10 @@
 
 <p>In order to change the case of the whole document in vi, the following commands can do that trick easily.<!--more--></p>
 
-<p>in lowercase:
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='vim'><span class='line'>%<span class="k">s</span><span class="sr">/.*/</span>\L&amp;amp;/
-</span></code></pre></td></tr></table></div></figure></p>
+<p>in lowercase:</p>
+
+<pre><code>%s/.*/\L&amp;/
+</code></pre>
 
 <p>in uppercase:</p>
 
