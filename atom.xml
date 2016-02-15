@@ -4,7 +4,7 @@
   <title><![CDATA[Auf das Leben!]]></title>
   <link href="http://houhaosheng.github.io/atom.xml" rel="self"/>
   <link href="http://houhaosheng.github.io/"/>
-  <updated>2016-02-15T22:10:43+01:00</updated>
+  <updated>2016-02-15T22:13:02+01:00</updated>
   <id>http://houhaosheng.github.io/</id>
   <author>
     <name><![CDATA[Haosheng Hou]]></name>
@@ -130,8 +130,7 @@
 <p>If you don&rsquo;t know what results your stated formula in VBA will get, this is the one command you should turn to for some help. Just simply type in the command and add the variable you want to know after the command.</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='VB.net'><span class='line'><span class="n">Debug</span><span class="p">.</span><span class="n">Print</span> <span class="n">Variable</span>
-</span></code></pre></td></tr></table></div></figure>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Debug.Print Variable</span></code></pre></td></tr></table></div></figure>
 
 
 <h3>4.Always Break Your Work Into Smaller Pieces</h3>
