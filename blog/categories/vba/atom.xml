@@ -4,7 +4,7 @@
   <title><![CDATA[Categoriesvba | Auf das Leben!]]></title>
   <link href="http://houhaosheng.github.io/blog/categories/vba/atom.xml" rel="self"/>
   <link href="http://houhaosheng.github.io/"/>
-  <updated>2016-02-15T22:18:33+01:00</updated>
+  <updated>2016-02-15T22:20:41+01:00</updated>
   <id>http://houhaosheng.github.io/</id>
   <author>
     <name><![CDATA[Haosheng Hou]]></name>
@@ -32,7 +32,7 @@
 
 <p>If you don&rsquo;t know what results your stated formula in VBA will get, this is the one command you should turn to for some help. Just simply type in the command and add the variable you want to know after the command.</p>
 
-<p>{% codeblock lang:Visual Basic.Net Useful Debug%}
+<p>{% codeblock lang:Visual Basic.net Useful Debug%}
 Debug.Print Variable
 {% endcodeblock %}</p>
 
