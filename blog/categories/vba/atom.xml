@@ -4,7 +4,7 @@
   <title><![CDATA[Categoriesvba | Auf das Leben!]]></title>
   <link href="http://houhaosheng.github.io/blog/categories/vba/atom.xml" rel="self"/>
   <link href="http://houhaosheng.github.io/"/>
-  <updated>2016-02-15T22:20:41+01:00</updated>
+  <updated>2016-02-15T22:23:20+01:00</updated>
   <id>http://houhaosheng.github.io/</id>
   <author>
     <name><![CDATA[Haosheng Hou]]></name>
@@ -32,9 +32,10 @@
 
 <p>If you don&rsquo;t know what results your stated formula in VBA will get, this is the one command you should turn to for some help. Just simply type in the command and add the variable you want to know after the command.</p>
 
-<p>{% codeblock lang:Visual Basic.net Useful Debug%}
-Debug.Print Variable
-{% endcodeblock %}</p>
+<p><figure class='code'><figcaption><span>Useful Debug</span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='VB.net'><span class='line'><span class="n">Debug</span><span class="p">.</span><span class="n">Print</span> <span class="n">Variable</span>
+</span></code></pre></td></tr></table></div></figure></p>
 
 <h3>4.Always Break Your Work Into Smaller Pieces</h3>
 
@@ -60,24 +61,43 @@ Debug.Print Variable
 
 <h3>7.Always Optimize Your Code and Speedup</h3>
 
-<p>{% codeblock lang:VB.net %}</p>
-
-<p>‘turn off some Excel functionality so your code runs faster
-Application.ScreenUpdating = False
-Application.DisplayStatusBar = False
-Application.Calculation = xlCalculationManual
-Application.EnableEvents = False
-ActiveSheet.DisplayPageBreaks = False      ‘note this is a sheet-level setting</p>
-
-<p>‘Your code here</p>
-
-<p>Application.ScreenUpdating = screenUpdateState
-Application.DisplayStatusBar = statusBarState
-Application.Calculation = calcState
-Application.EnableEvents = eventsState
-ActiveSheet.DisplayPageBreaks = displayPageBreaksState</p>
-
-<p>{% endcodeblock %}</p>
+<p><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+</pre></td><td class='code'><pre><code class='VB.net'><span class='line'><span class="na">&lt;/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="na">&lt;p&gt;</span><span class="err">‘</span><span class="n">turn</span> <span class="n">off</span> <span class="n">some</span> <span class="n">Excel</span> <span class="n">functionality</span> <span class="n">so</span> <span class="n">your</span> <span class="n">code</span> <span class="n">runs</span> <span class="n">faster</span>
+</span><span class='line'><span class="n">Application</span><span class="p">.</span><span class="n">ScreenUpdating</span> <span class="o">=</span> <span class="k">False</span>
+</span><span class='line'><span class="n">Application</span><span class="p">.</span><span class="n">DisplayStatusBar</span> <span class="o">=</span> <span class="k">False</span>
+</span><span class='line'><span class="n">Application</span><span class="p">.</span><span class="n">Calculation</span> <span class="o">=</span> <span class="n">xlCalculationManual</span>
+</span><span class='line'><span class="n">Application</span><span class="p">.</span><span class="n">EnableEvents</span> <span class="o">=</span> <span class="k">False</span>
+</span><span class='line'><span class="n">ActiveSheet</span><span class="p">.</span><span class="n">DisplayPageBreaks</span> <span class="o">=</span> <span class="k">False</span>      <span class="err">‘</span><span class="n">note</span> <span class="n">this</span> <span class="ow">is</span> <span class="n">a</span> <span class="n">sheet</span><span class="o">-</span><span class="n">level</span> <span class="n">setting</span><span class="o">&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="na">&lt;p&gt;</span><span class="err">‘</span><span class="n">Your</span> <span class="n">code</span> <span class="n">here</span><span class="o">&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="na">&lt;p&gt;</span><span class="n">Application</span><span class="p">.</span><span class="n">ScreenUpdating</span> <span class="o">=</span> <span class="n">screenUpdateState</span>
+</span><span class='line'><span class="n">Application</span><span class="p">.</span><span class="n">DisplayStatusBar</span> <span class="o">=</span> <span class="n">statusBarState</span>
+</span><span class='line'><span class="n">Application</span><span class="p">.</span><span class="n">Calculation</span> <span class="o">=</span> <span class="n">calcState</span>
+</span><span class='line'><span class="n">Application</span><span class="p">.</span><span class="n">EnableEvents</span> <span class="o">=</span> <span class="n">eventsState</span>
+</span><span class='line'><span class="n">ActiveSheet</span><span class="p">.</span><span class="n">DisplayPageBreaks</span> <span class="o">=</span> <span class="n">displayPageBreaksState</span><span class="o">&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="na">&lt;p&gt;</span>
+</span></code></pre></td></tr></table></div></figure></p>
 ]]></content>
   </entry>
   
