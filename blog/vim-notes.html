@@ -9,7 +9,7 @@
   <meta name="author" content="Haosheng Hou">
 
   
-  <meta name="description" content="1.Lowercase/Uppercase In order to change the case of the whole document in vi, the following commands can do that trick easily. in lowercase: %s/.*/\ &hellip;">
+  <meta name="description" content="1.Command in Vim non-editing environment 1.1 Lowercase/Uppercase In order to change the case of the whole document in vi, the following commands can &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -98,26 +98,50 @@
   </header>
 
 
-<div class="entry-content"><h2>1.Lowercase/Uppercase</h2>
+<div class="entry-content"><h2>1.Command in Vim non-editing environment</h2>
 
-<p>In order to change the case of the whole document in vi, the following commands can do that trick easily.<!--more--></p>
+<h3>1.1 Lowercase/Uppercase</h3>
 
-<p>in lowercase:</p>
+<p>In order to change the case of the whole document in vi, the following commands can do that trick easily.<!--more-->
+in lowercase:
+    %s/.<em>/\L&amp;/<br/>
+in uppercase:
+    %s/.</em>/\U&amp;/</p>
 
-<pre><code>%s/.*/\L&amp;/
-</code></pre>
+<h3>1.2 Show line numbers</h3>
 
-<p>in uppercase:</p>
+<p>If you wanna show the line numbers in vi environment, just type in the following command.
+    set nu</p>
 
-<pre><code>%s/.*/\U&amp;/ 
-</code></pre>
+<h2>2.Moving curser</h2>
 
-<h2>2.Show line numbers</h2>
+<table>
+<thead>
+<tr>
+<th> Key           </th>
+<th style="text-align:center;"> Motion        </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td> h             </td>
+<td style="text-align:center;"> Move left     </td>
+</tr>
+<tr>
+<td> j             </td>
+<td style="text-align:center;"> Move down     </td>
+</tr>
+<tr>
+<td> k             </td>
+<td style="text-align:center;"> Move up       </td>
+</tr>
+<tr>
+<td> l             </td>
+<td style="text-align:center;"> Move right    </td>
+</tr>
+</tbody>
+</table>
 
-<p>If you wanna show the line numbers in vi environment, just type in the following command.</p>
-
-<pre><code>set nu
-</code></pre>
 </div>
 
 
