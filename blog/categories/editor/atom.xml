@@ -4,7 +4,7 @@
   <title><![CDATA[Categorieseditor | Auf das Leben!]]></title>
   <link href="http://houhaosheng.github.io/blog/categories/editor/atom.xml" rel="self"/>
   <link href="http://houhaosheng.github.io/"/>
-  <updated>2016-02-16T21:46:47+01:00</updated>
+  <updated>2016-02-16T21:52:17+01:00</updated>
   <id>http://houhaosheng.github.io/</id>
   <author>
     <name><![CDATA[Haosheng Hou]]></name>
@@ -52,25 +52,25 @@ in uppercase:
 <thead>
 <tr>
 <th> Key           </th>
-<th style="text-align:center;"> Motion        </th>
+<th> Motion        </th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td> h             </td>
-<td style="text-align:center;"> Move left     </td>
+<td> Move left     </td>
 </tr>
 <tr>
 <td> j             </td>
-<td style="text-align:center;"> Move down     </td>
+<td> Move down     </td>
 </tr>
 <tr>
 <td> k             </td>
-<td style="text-align:center;"> Move up       </td>
+<td> Move up       </td>
 </tr>
 <tr>
 <td> l             </td>
-<td style="text-align:center;"> Move right    </td>
+<td> Move right    </td>
 </tr>
 </tbody>
 </table>
