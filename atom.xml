@@ -4,7 +4,7 @@
   <title><![CDATA[Auf das Leben!]]></title>
   <link href="http://houhaosheng.github.io/atom.xml" rel="self"/>
   <link href="http://houhaosheng.github.io/"/>
-  <updated>2016-04-30T11:09:36+02:00</updated>
+  <updated>2016-05-08T19:21:58+02:00</updated>
   <id>http://houhaosheng.github.io/</id>
   <author>
     <name><![CDATA[Haosheng Hou]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Solution to Automatically-sleeping in Win10]]></title>
+    <link href="http://houhaosheng.github.io/blog/solution-to-automatically-sleeping-in-win10.html"/>
+    <updated>2016-05-08T18:59:55+02:00</updated>
+    <id>http://houhaosheng.github.io/blog/solution-to-automatically-sleeping-in-win10</id>
+    <content type="html"><![CDATA[<p>A couple of months ago, I installed Win10 Education on my old laptop to make it a backup computer at home. But I haven&rsquo;t use it very often until today. And yet I discovered a problem that I never run into before. <!--more-->My laptop goes to sleep every 2 minutes if you don&rsquo;t operate anything. Thinking like a normal person, I certainly goes to the system setting to change the sleep option to 「Never」. Am I too naive? It turns out that I am. Changing the settings won&rsquo;t make a difference in this case.So, a little research being made and here goes the solution.</p>
+
+<h3>1.Press 「WIN+r」, type in 「regedit.exe」</h3>
+
+<h3>2.Locate to HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\238C9FA8-0AAD-41ED-83F4-97BE242C8F20\7bc4a2f9-d8fc-4469-b07b-33eb785aaca0</h3>
+
+<h3>3.Change the value of 「Attributes」to 2</h3>
+
+<h3>4.Press 「WIN+x」, go to 「Control Panel」->「System and Security」->「Power Options」->「Change advanced power settings」->「Sleep」->「System unattended sleep timeout」, change the time to whatever you want.</h3>
+
+<p>Then, problem solved.</p>
+
+<p>Source: <a href="https://www.zhihu.com/question/39263412/answer/87430653">https://www.zhihu.com/question/39263412/answer/87430653</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[In Retrospect]]></title>

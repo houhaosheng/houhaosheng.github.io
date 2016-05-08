@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://houhaosheng.github.io/blog/solution-to-automatically-sleeping-in-win10.html</loc>
+    <lastmod>2016-05-08T18:59:55+02:00</lastmod>
+  </url>
+  <url>
     <loc>http://houhaosheng.github.io/blog/in-retrospect.html</loc>
     <lastmod>2016-04-30T10:35:40+02:00</lastmod>
   </url>
@@ -61,5 +65,8 @@
   </url>
   <url>
     <loc>http://houhaosheng.github.io/blog/categories/life/</loc>
+  </url>
+  <url>
+    <loc>http://houhaosheng.github.io/blog/categories/tech/</loc>
   </url>
 </urlset>
