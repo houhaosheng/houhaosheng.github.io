@@ -4,7 +4,7 @@
   <title><![CDATA[Auf das Leben!]]></title>
   <link href="http://houhaosheng.github.io/atom.xml" rel="self"/>
   <link href="http://houhaosheng.github.io/"/>
-  <updated>2016-05-09T22:32:59+02:00</updated>
+  <updated>2016-05-13T13:39:21+02:00</updated>
   <id>http://houhaosheng.github.io/</id>
   <author>
     <name><![CDATA[Haosheng Hou]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Everything Is a Pattern]]></title>
+    <link href="http://houhaosheng.github.io/blog/everything-is-a-pattern.html"/>
+    <updated>2016-05-13T13:18:20+02:00</updated>
+    <id>http://houhaosheng.github.io/blog/everything-is-a-pattern</id>
+    <content type="html"><![CDATA[<p>Everything is a pattern. This sound a little bit cliche. But to be honest, cliche is the thing that always stay true. A way a person behaves can be a pattern. The way that an organization works can be a pattern. This could goes to the working efficiency area. And that&rsquo;s what I&rsquo;m going to say in this article.<!--more--></p>
+
+<p><em>Noizio</em> is an Application that I&rsquo;m using to developing my working pattern. It has a lot of scenes of sound built in it. For example, October Rain, Coffee House, Wind Chimes and so on. You can also save your favorite composition so you can easily reuse it. For me, I usually use two patterns, daywork and nightwork. The daywork pattern is composed of Coffee House and Wind Chimes, because I really like the noise in the coffee house while working. Don&rsquo;t ask why, I&rsquo;m weird. The nightwork pattern is composed of Thundstorm and Campfire. This always reminds me of a scene in the cave, very cozy and warm, however, it rains pretty hard outside. Besides, the sound of fire always reminds me of my childhood spent in my grandma&rsquo;s house.</p>
+
+<p>In ios, there&rsquo;s a similar App called <em>Taomix</em>. I barely use it because I always on my Mac while I&rsquo;m working. But this App works as good as the aforementioned one, or even better. Becasue in this App you can actually define the distance of each sound source from you. I&rsquo;ve got admit that this is pretty damn cool.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Blah Time]]></title>
