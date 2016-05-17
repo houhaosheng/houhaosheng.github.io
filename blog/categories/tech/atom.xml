@@ -4,7 +4,7 @@
   <title><![CDATA[Categoriestech | Auf das Leben!]]></title>
   <link href="http://houhaosheng.github.io/blog/categories/tech/atom.xml" rel="self"/>
   <link href="http://houhaosheng.github.io/"/>
-  <updated>2016-05-17T16:41:05+02:00</updated>
+  <updated>2016-05-17T16:43:18+02:00</updated>
   <id>http://houhaosheng.github.io/</id>
   <author>
     <name><![CDATA[Haosheng Hou]]></name>
@@ -20,22 +20,25 @@
     <id>http://houhaosheng.github.io/blog/how-to-solve-ios-contacts-ordering-chaos-when-system-language-is-not-chinese</id>
     <content type="html"><![CDATA[<p>This is a problem that confused me for quite some time. Luckily and accidentally, I found out the solution to this problem. This is really a good news for guys who have obsessive compulsive disorder.<!--more--></p>
 
-<p>Requirements:
-* Xcode from Mac
-* iCloud synchronization for contacts between iOS and Mac OS
-* Internet access</p>
+<p>Requirements:</p>
 
-<p>Simple steps goes like this:
-1. Download ZIP from the website below:
-<a href="https://github.com/lexrus/PhoneticContacts">Github</a>
-2. Decompress the dowloaded file and double click <em>PhoneticContacts.xcodeproj</em>
-3. Access Xcode and run the code.</p>
+<ul>
+<li>Xcode from Mac</li>
+<li>iCloud synchronization for contacts between iOS and Mac OS</li>
+<li>Internet access</li>
+</ul>
 
-<pre><code>Build Success
-</code></pre>
+
+<p>Simple steps goes like this:</p>
 
 <ol>
-<li>Wait for iCloud to synchronize.</li>
+<li>Download ZIP from the website below:
+<a href="https://github.com/lexrus/PhoneticContacts">Github</a></li>
+<li>Decompress the dowloaded file and double click <em>PhoneticContacts.xcodeproj</em></li>
+<li><p>Access Xcode and run the code.</p>
+
+<p> Build Success</p></li>
+<li><p>Wait for iCloud to synchronize.</p></li>
 </ol>
 
 
