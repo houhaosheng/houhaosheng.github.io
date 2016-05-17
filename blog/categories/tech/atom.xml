@@ -4,7 +4,7 @@
   <title><![CDATA[Categoriestech | Auf das Leben!]]></title>
   <link href="http://houhaosheng.github.io/blog/categories/tech/atom.xml" rel="self"/>
   <link href="http://houhaosheng.github.io/"/>
-  <updated>2016-05-17T16:54:56+02:00</updated>
+  <updated>2016-05-17T20:41:59+02:00</updated>
   <id>http://houhaosheng.github.io/</id>
   <author>
     <name><![CDATA[Haosheng Hou]]></name>
@@ -19,6 +19,15 @@
     <updated>2016-05-17T16:21:51+02:00</updated>
     <id>http://houhaosheng.github.io/blog/how-to-solve-ios-contacts-ordering-chaos-when-system-language-is-not-chinese</id>
     <content type="html"><![CDATA[<p>This is a problem that confused me for quite some time. Luckily and accidentally, I found out the solution to this problem. This is really a good news for guys who have obsessive compulsive disorder.<!--more--></p>
+
+<p>Continue reading this if you</p>
+
+<ul>
+<li>are Chinese</li>
+<li>set your system language to English or Germna or whatever</li>
+<li>have Chinese names in your contacts</li>
+</ul>
+
 
 <p>Requirements:</p>
 
