@@ -4,7 +4,7 @@
   <title><![CDATA[Auf das Leben!]]></title>
   <link href="http://houhaosheng.github.io/atom.xml" rel="self"/>
   <link href="http://houhaosheng.github.io/"/>
-  <updated>2016-05-17T16:51:57+02:00</updated>
+  <updated>2016-05-17T16:54:56+02:00</updated>
   <id>http://houhaosheng.github.io/</id>
   <author>
     <name><![CDATA[Haosheng Hou]]></name>
@@ -34,10 +34,7 @@
 <ol>
 <li>Download ZIP from <a href="https://github.com/lexrus/PhoneticContacts">Github</a></li>
 <li>Decompress the dowloaded file and double click <em>PhoneticContacts.xcodeproj</em></li>
-<li>Access Xcode and run the code.
-<code>
- Build Success
-</code></li>
+<li>Access Xcode and run the code &ndash;> 「Build Success」</li>
 <li>Wait for iCloud to synchronize.</li>
 </ol>
 
