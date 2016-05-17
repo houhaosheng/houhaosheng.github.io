@@ -4,7 +4,7 @@
   <title><![CDATA[Categoriestech | Auf das Leben!]]></title>
   <link href="http://houhaosheng.github.io/blog/categories/tech/atom.xml" rel="self"/>
   <link href="http://houhaosheng.github.io/"/>
-  <updated>2016-05-17T16:45:12+02:00</updated>
+  <updated>2016-05-17T16:51:57+02:00</updated>
   <id>http://houhaosheng.github.io/</id>
   <author>
     <name><![CDATA[Haosheng Hou]]></name>
@@ -34,14 +34,15 @@
 <ol>
 <li>Download ZIP from <a href="https://github.com/lexrus/PhoneticContacts">Github</a></li>
 <li>Decompress the dowloaded file and double click <em>PhoneticContacts.xcodeproj</em></li>
-<li><p>Access Xcode and run the code.</p>
-
-<p> Build Success</p></li>
-<li><p>Wait for iCloud to synchronize.</p></li>
+<li>Access Xcode and run the code.
+<code>
+ Build Success
+</code></li>
+<li>Wait for iCloud to synchronize.</li>
 </ol>
 
 
-<p>Source:<a href="http://sspai.com/23168">http://sspai.com/23168</a></p>
+<p>Source: <a href="http://sspai.com/23168">http://sspai.com/23168</a></p>
 ]]></content>
   </entry>
   
