@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://houhaosheng.github.io/blog/how-to-solve-ios-contacts-ordering-chaos-when-system-language-is-not-chinese.html</loc>
+    <lastmod>2016-05-17T16:21:51+02:00</lastmod>
+  </url>
+  <url>
     <loc>http://houhaosheng.github.io/blog/everything-is-a-pattern.html</loc>
     <lastmod>2016-05-13T13:18:20+02:00</lastmod>
   </url>
