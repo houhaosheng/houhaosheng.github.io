@@ -4,7 +4,7 @@
   <title><![CDATA[Categoriestech | Auf das Leben!]]></title>
   <link href="http://houhaosheng.github.io/blog/categories/tech/atom.xml" rel="self"/>
   <link href="http://houhaosheng.github.io/"/>
-  <updated>2016-06-22T10:07:52+02:00</updated>
+  <updated>2016-06-22T10:10:59+02:00</updated>
   <id>http://houhaosheng.github.io/</id>
   <author>
     <name><![CDATA[Haosheng Hou]]></name>
@@ -66,9 +66,9 @@
   
   <entry>
     <title type="html"><![CDATA[Solution to Automatically-sleeping in Win10]]></title>
-    <link href="http://houhaosheng.github.io/blog/solution-to-automatically-sleeping-in-win10.html"/>
+    <link href="http://houhaosheng.github.io/blog/automatically-sleeping-in-win10.html"/>
     <updated>2016-05-08T18:59:55+02:00</updated>
-    <id>http://houhaosheng.github.io/blog/solution-to-automatically-sleeping-in-win10</id>
+    <id>http://houhaosheng.github.io/blog/automatically-sleeping-in-win10</id>
     <content type="html"><![CDATA[<p>A couple of months ago, I installed Win10 Education on my old laptop to make it a backup computer at home. But I haven&rsquo;t use it very often until today. And yet I discovered a problem that I never run into before. <!--more-->My laptop goes to sleep every 2 minutes if you don&rsquo;t operate anything. Thinking like a normal person, I certainly goes to the system setting to change the sleep option to 「Never」. Am I too naive? It turns out that I am. Changing the settings won&rsquo;t make a difference in this case.So, a little research being made and here goes the solution.</p>
 
 <ol>

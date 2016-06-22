@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Solution to Automatically-sleeping in Win10 - Auf das Leben!</title>
+  <title>Setup Workflow on Mac - Auf das Leben!</title>
   <meta name="author" content="Haosheng Hou">
 
   
-  <meta name="description" content="A couple of months ago, I installed Win10 Education on my old laptop to make it a backup computer at home. But I haven&rsquo;t use it very often &hellip;">
+  <meta name="description" content="As this may sounds familier to all of you: before I start doing my work, I just use 5 minutes to check out the new post on Facebook or Twitter. And a &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://houhaosheng.github.io/blog/solution-to-automatically-sleeping-in-win10.html">
+  <link rel="canonical" href="http://houhaosheng.github.io/blog/setup-workflow-on-mac.html">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Auf das Leben!" type="application/atom+xml">
@@ -82,7 +82,7 @@
   
   <header>
     
-      <h1 class="entry-title">Solution to Automatically-sleeping in Win10</h1>
+      <h1 class="entry-title">Setup Workflow on Mac</h1>
     
     
       <p class="meta">
@@ -91,31 +91,38 @@
 
 
 
-<time class='entry-date' datetime='2016-05-08T18:59:55+02:00'><span class='date'><span class='date-month'>May</span> <span class='date-day'>8</span><span class='date-suffix'>th</span>, <span class='date-year'>2016</span></span> <span class='time'>6:59 pm</span></time>
+<time class='entry-date' datetime='2015-11-14T20:02:05+01:00'><span class='date'><span class='date-month'>Nov</span> <span class='date-day'>14</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>8:02 pm</span></time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>A couple of months ago, I installed Win10 Education on my old laptop to make it a backup computer at home. But I haven&rsquo;t use it very often until today. And yet I discovered a problem that I never run into before. <!--more-->My laptop goes to sleep every 2 minutes if you don&rsquo;t operate anything. Thinking like a normal person, I certainly goes to the system setting to change the sleep option to 「Never」. Am I too naive? It turns out that I am. Changing the settings won&rsquo;t make a difference in this case.So, a little research being made and here goes the solution.</p>
+<div class="entry-content"><p>As this may sounds familier to all of you: before I start doing my work, I just use 5 minutes to check out the new post on Facebook or Twitter. And a hour has passed, you are kind of &ldquo;stuck to&rdquo; the virtual circle of intersting things. This happens to me all the time. Works are always be postponed, things remain undone, life sucks.<!--more--></p>
 
-<ol>
-<li>Press 「WIN+r」, type in 「regedit.exe」</li>
-<li><p>Locate to the following path:</p>
+<p>I think the most exciting and frustrating thing about Mac is that, you don&rsquo;t need to shut down. If you were social-networking, the next time you open up you Mac, you will directly be in the same status. However, if you think on the opposite way, you will discover that the work you left there yesterday are still there. Instead of seeing social network page on the first sight, you will continue to do your work instantly.</p>
 
-<pre><code> HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\
- PowerSettings\238C9FA8-0AAD-41ED-83F4-97BE242C8F20\
- 7bc4a2f9-d8fc-4469-b07b-33eb785aaca0   
-</code></pre></li>
-<li><p>Change the value of 「Attributes」to 2</p></li>
-<li>Press 「WIN+x」, go to 「Control Panel」->「System and Security」->「Power Options」->「Change advanced power settings」->「Sleep」->「System unattended sleep timeout」, change the time to whatever you want.</li>
+<p>Workflow maybe the best thing I could think of to avoid distraction. With one click or type in the terminal some command, you will quickly pick up the work you left and get in the mood of working.Here goes how:</p>
+
+<p>The workflow to quit all Applications:</p>
+
+<blockquote><ol>
+<li><p>Open Automator and choose workflow</p></li>
+<li><p>In the Library, choose Utilities, then drag 「Quit all Applications」to the right</p></li>
+<li><p>If you wanna keep some App open, just hit 「Add current Applications」</p></li>
 </ol>
+</blockquote>
 
+<p>The workflow to open certain bundle of Applications is basically the same procedure, one can explore a little bit.</p>
 
-<p>Tada! Problem solved.</p>
+<p>cmd+s to save the work flow and just pin it somewhere handy, dock seems to be a excellent choice.  Or if you prefer the using of Terminal, you can type in the following command:</p>
 
-<p>Source: <a href="https://www.zhihu.com/question/39263412/answer/87430653">https://www.zhihu.com/question/39263412/answer/87430653</a></p>
+<pre><code>automator yourworkflow.workflow
+</code></pre>
+
+<p>in the path where you saved your workflow.</p>
+
+<p>There&rsquo;s also a tip for setting workflow. You have to know exactly what you gonna do with your Mac, probably write all the Application you need and the sequence maybe on Notes, and then set up the workflow. As always, with explicit target, you can avoid wasting time.</p>
 </div>
 
 
@@ -131,12 +138,12 @@
 
 
 
-<time class='entry-date' datetime='2016-05-08T18:59:55+02:00'><span class='date'><span class='date-month'>May</span> <span class='date-day'>8</span><span class='date-suffix'>th</span>, <span class='date-year'>2016</span></span> <span class='time'>6:59 pm</span></time>
+<time class='entry-date' datetime='2015-11-14T20:02:05+01:00'><span class='date'><span class='date-month'>Nov</span> <span class='date-day'>14</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>8:02 pm</span></time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/tech/'>tech</a>
+    <a class='category' href='/blog/categories/mac/'>mac</a>
   
 </span>
 
@@ -154,10 +161,10 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/in-retrospect.html" title="Previous Post: In Retrospect">&laquo; In Retrospect</a>
+        <a class="basic-alignment left" href="/blog/useful-tips-for-excel-vba.html" title="Previous Post: Useful Tips for Excel VBA">&laquo; Useful Tips for Excel VBA</a>
       
       
-        <a class="basic-alignment right" href="/blog/blah-time.html" title="Next Post: Blah time">Blah time &raquo;</a>
+        <a class="basic-alignment right" href="/blog/my-100-thing-challenge.html" title="Next Post: My 100 Thing Challenge">My 100 Thing Challenge &raquo;</a>
       
     </p>
   </footer>
@@ -205,7 +212,7 @@
       </li>
     
       <li class="post">
-        <a href="/blog/solution-to-automatically-sleeping-in-win10.html">Solution to Automatically-sleeping in Win10</a>
+        <a href="/blog/automatically-sleeping-in-win10.html">Solution to Automatically-sleeping in Win10</a>
       </li>
     
       <li class="post">
@@ -219,6 +226,7 @@
   <ul id="categories">
     <li class='category'><a href='/blog/categories/editor/'>editor (2)</a></li>
 <li class='category'><a href='/blog/categories/life/'>life (4)</a></li>
+<li class='category'><a href='/blog/categories/mac/'>mac (1)</a></li>
 <li class='category'><a href='/blog/categories/minimalism/'>minimalism (1)</a></li>
 <li class='category'><a href='/blog/categories/programming/'>programming (1)</a></li>
 <li class='category'><a href='/blog/categories/tech/'>tech (3)</a></li>
@@ -245,8 +253,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://houhaosheng.github.io/blog/solution-to-automatically-sleeping-in-win10.html';
-        var disqus_url = 'http://houhaosheng.github.io/blog/solution-to-automatically-sleeping-in-win10.html';
+        var disqus_identifier = 'http://houhaosheng.github.io/blog/setup-workflow-on-mac.html';
+        var disqus_url = 'http://houhaosheng.github.io/blog/setup-workflow-on-mac.html';
         var disqus_script = 'embed.js';
       
     (function () {

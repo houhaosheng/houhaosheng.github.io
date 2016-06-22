@@ -4,7 +4,7 @@
   <title><![CDATA[Auf das Leben!]]></title>
   <link href="http://houhaosheng.github.io/atom.xml" rel="self"/>
   <link href="http://houhaosheng.github.io/"/>
-  <updated>2016-06-22T10:07:52+02:00</updated>
+  <updated>2016-06-22T10:10:59+02:00</updated>
   <id>http://houhaosheng.github.io/</id>
   <author>
     <name><![CDATA[Haosheng Hou]]></name>
@@ -79,9 +79,9 @@
   
   <entry>
     <title type="html"><![CDATA[Solution to Automatically-sleeping in Win10]]></title>
-    <link href="http://houhaosheng.github.io/blog/solution-to-automatically-sleeping-in-win10.html"/>
+    <link href="http://houhaosheng.github.io/blog/automatically-sleeping-in-win10.html"/>
     <updated>2016-05-08T18:59:55+02:00</updated>
-    <id>http://houhaosheng.github.io/blog/solution-to-automatically-sleeping-in-win10</id>
+    <id>http://houhaosheng.github.io/blog/automatically-sleeping-in-win10</id>
     <content type="html"><![CDATA[<p>A couple of months ago, I installed Win10 Education on my old laptop to make it a backup computer at home. But I haven&rsquo;t use it very often until today. And yet I discovered a problem that I never run into before. <!--more-->My laptop goes to sleep every 2 minutes if you don&rsquo;t operate anything. Thinking like a normal person, I certainly goes to the system setting to change the sleep option to 「Never」. Am I too naive? It turns out that I am. Changing the settings won&rsquo;t make a difference in this case.So, a little research being made and here goes the solution.</p>
 
 <ol>
@@ -179,6 +179,39 @@
     <content type="html"><![CDATA[<p>「100-Thing Challenge」 is a method to quantify your personal effort to simplify your life. This allow people to be more with less.</p>
 
 <p>So, I decide to give it a try. I just want to see how many things I must have to make my life get going.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Setup Workflow on Mac]]></title>
+    <link href="http://houhaosheng.github.io/blog/setup-workflow-on-mac.html"/>
+    <updated>2015-11-14T20:02:05+01:00</updated>
+    <id>http://houhaosheng.github.io/blog/setup-workflow-on-mac</id>
+    <content type="html"><![CDATA[<p>As this may sounds familier to all of you: before I start doing my work, I just use 5 minutes to check out the new post on Facebook or Twitter. And a hour has passed, you are kind of &ldquo;stuck to&rdquo; the virtual circle of intersting things. This happens to me all the time. Works are always be postponed, things remain undone, life sucks.<!--more--></p>
+
+<p>I think the most exciting and frustrating thing about Mac is that, you don&rsquo;t need to shut down. If you were social-networking, the next time you open up you Mac, you will directly be in the same status. However, if you think on the opposite way, you will discover that the work you left there yesterday are still there. Instead of seeing social network page on the first sight, you will continue to do your work instantly.</p>
+
+<p>Workflow maybe the best thing I could think of to avoid distraction. With one click or type in the terminal some command, you will quickly pick up the work you left and get in the mood of working.Here goes how:</p>
+
+<p>The workflow to quit all Applications:</p>
+
+<blockquote><ol>
+<li><p>Open Automator and choose workflow</p></li>
+<li><p>In the Library, choose Utilities, then drag 「Quit all Applications」to the right</p></li>
+<li><p>If you wanna keep some App open, just hit 「Add current Applications」</p></li>
+</ol>
+</blockquote>
+
+<p>The workflow to open certain bundle of Applications is basically the same procedure, one can explore a little bit.</p>
+
+<p>cmd+s to save the work flow and just pin it somewhere handy, dock seems to be a excellent choice.  Or if you prefer the using of Terminal, you can type in the following command:</p>
+
+<pre><code>automator yourworkflow.workflow
+</code></pre>
+
+<p>in the path where you saved your workflow.</p>
+
+<p>There&rsquo;s also a tip for setting workflow. You have to know exactly what you gonna do with your Mac, probably write all the Application you need and the sequence maybe on Notes, and then set up the workflow. As always, with explicit target, you can avoid wasting time.</p>
 ]]></content>
   </entry>
   
