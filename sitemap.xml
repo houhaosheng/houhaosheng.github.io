@@ -56,16 +56,19 @@
     <loc>http://houhaosheng.github.io/about/buy-me-coffee.html</loc>
   </url>
   <url>
+    <loc>http://houhaosheng.github.io/blog/</loc>
+  </url>
+  <url>
+    <loc>http://houhaosheng.github.io/</loc>
+  </url>
+  <url>
     <loc>http://houhaosheng.github.io/archives/</loc>
   </url>
   <url>
     <loc>http://houhaosheng.github.io/blog/archives/</loc>
   </url>
   <url>
-    <loc>http://houhaosheng.github.io/blog/</loc>
-  </url>
-  <url>
-    <loc>http://houhaosheng.github.io/</loc>
+    <loc>http://houhaosheng.github.io/about-me/</loc>
   </url>
   <url>
     <loc>http://houhaosheng.github.io/blog/categories/editor/</loc>
@@ -81,5 +84,8 @@
   </url>
   <url>
     <loc>http://houhaosheng.github.io/blog/categories/tech/</loc>
+  </url>
+  <url>
+    <loc>http://houhaosheng.github.io/posts/2/</loc>
   </url>
 </urlset>
