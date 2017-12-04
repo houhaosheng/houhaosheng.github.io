@@ -4,7 +4,7 @@
   <title><![CDATA[Categoriestech | Auf das Leben!]]></title>
   <link href="http://houhaosheng.github.io/blog/categories/tech/atom.xml" rel="self"/>
   <link href="http://houhaosheng.github.io/"/>
-  <updated>2017-04-25T15:13:33+02:00</updated>
+  <updated>2017-12-04T17:47:30+08:00</updated>
   <id>http://houhaosheng.github.io/</id>
   <author>
     <name><![CDATA[Haosheng Hou]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[iOS Contacts Ordering Chaos]]></title>
     <link href="http://houhaosheng.github.io/blog/iOS-contacts-ordering-chaos.html"/>
-    <updated>2016-05-17T16:21:51+02:00</updated>
+    <updated>2016-05-17T22:21:51+08:00</updated>
     <id>http://houhaosheng.github.io/blog/iOS-contacts-ordering-chaos</id>
     <content type="html"><![CDATA[<p>This is a problem that confused me for quite some time. Luckily and accidentally, I found out the solution to this problem. This is really a good news for guys who have obsessive compulsive disorder.<!--more--></p>
 
@@ -54,7 +54,7 @@
   <entry>
     <title type="html"><![CDATA[Everything Is a Pattern]]></title>
     <link href="http://houhaosheng.github.io/blog/everything-is-a-pattern.html"/>
-    <updated>2016-05-13T13:18:20+02:00</updated>
+    <updated>2016-05-13T19:18:20+08:00</updated>
     <id>http://houhaosheng.github.io/blog/everything-is-a-pattern</id>
     <content type="html"><![CDATA[<p>Everything is a pattern. This sound a little bit cliche. But to be honest, cliche is the thing that always stay true. A way a person behaves can be a pattern. The way that an organization works can be a pattern. This could goes to the working efficiency area. And that&rsquo;s what I&rsquo;m going to say in this article.<!--more--></p>
 
@@ -67,7 +67,7 @@
   <entry>
     <title type="html"><![CDATA[Auto-sleeping in Win10]]></title>
     <link href="http://houhaosheng.github.io/blog/auto-sleeping-in-win10.html"/>
-    <updated>2016-05-08T18:59:55+02:00</updated>
+    <updated>2016-05-09T00:59:55+08:00</updated>
     <id>http://houhaosheng.github.io/blog/auto-sleeping-in-win10</id>
     <content type="html"><![CDATA[<p><img src="http://omuoa05ah.bkt.clouddn.com/win10.png" alt="Windows10" /></p>
 
@@ -89,6 +89,52 @@
 <p>Tada! Problem solved.</p>
 
 <p>Source: <a href="https://www.zhihu.com/question/39263412/answer/87430653">https://www.zhihu.com/question/39263412/answer/87430653</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Markdown Is the New Sexy]]></title>
+    <link href="http://houhaosheng.github.io/blog/markdown-is-the-new-sexy.html"/>
+    <updated>2016-02-16T02:28:30+08:00</updated>
+    <id>http://houhaosheng.github.io/blog/markdown-is-the-new-sexy</id>
+    <content type="html"><![CDATA[<p>Markdown is a lightweight markup language developed by John Gruber(so says Wikipedia). My first contact with markdown is the time I build this personal blog website. All the blogs I&rsquo;ve written is in markdown format. This is a pretty cool and most of all distraction-free way of writing articles.<!--more--></p>
+
+<p>But first of all, when you write something, editor is necessary. There are countless editors, well, that&rsquo;s exaggerative expression. Luckily, I only tried out three before I found my favorite one. The first one I tried is <em>Mou</em> developed by this great guy <em>Chen Luo</em>. It&rsquo;s completely free and easy to use. But the only thing that turn me down is the coloring, way too colorful for me. The second one is <em>Ulysses</em>, said to be the most powerful markdown tools on the market. Well, for me, maybe too powerful. I don&rsquo;t really need all the file directory stuff. Besides, the downside of powerful is that it&rsquo;ll definitely become slower. So comes the third one, my favorite, <em>Byword</em>. It&rsquo;s small, single-functional. Just the way I like it, full &lsquo;minimalism&rsquo; design.</p>
+
+<p>There are already tons of tutorials on the internet about markdown grammar. However, I&rsquo;ll write another simple one and post it later, just as a reminder for me to check when I forget about something. But if this can be a little help of you guys, I&rsquo;ll be glad.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Setup Workflow on Mac]]></title>
+    <link href="http://houhaosheng.github.io/blog/setup-workflow-on-mac.html"/>
+    <updated>2015-11-15T03:02:05+08:00</updated>
+    <id>http://houhaosheng.github.io/blog/setup-workflow-on-mac</id>
+    <content type="html"><![CDATA[<p>As this may sounds familier to all of you: before I start doing my work, I just use 5 minutes to check out the new post on Facebook or Twitter. And a hour has passed, you are kind of &ldquo;stuck to&rdquo; the virtual circle of intersting things. This happens to me all the time. Works are always be postponed, things remain undone, life sucks.<!--more--></p>
+
+<p>I think the most exciting and frustrating thing about Mac is that, you don&rsquo;t need to shut down. If you were social-networking, the next time you open up you Mac, you will directly be in the same status. However, if you think on the opposite way, you will discover that the work you left there yesterday are still there. Instead of seeing social network page on the first sight, you will continue to do your work instantly.</p>
+
+<p>Workflow maybe the best thing I could think of to avoid distraction. With one click or type in the terminal some command, you will quickly pick up the work you left and get in the mood of working.Here goes how:</p>
+
+<p>The workflow to quit all Applications:</p>
+
+<blockquote><ol>
+<li><p>Open Automator and choose workflow</p></li>
+<li><p>In the Library, choose Utilities, then drag 「Quit all Applications」to the right</p></li>
+<li><p>If you wanna keep some App open, just hit 「Add current Applications」</p></li>
+</ol>
+</blockquote>
+
+<p>The workflow to open certain bundle of Applications is basically the same procedure, one can explore a little bit.</p>
+
+<p>cmd+s to save the work flow and just pin it somewhere handy, dock seems to be a excellent choice.  Or if you prefer the using of Terminal, you can type in the following command:</p>
+
+<pre><code>automator yourworkflow.workflow
+</code></pre>
+
+<p>in the path where you saved your workflow.</p>
+
+<p>There&rsquo;s also a tip for setting workflow. You have to know exactly what you gonna do with your Mac, probably write all the Application you need and the sequence maybe on Notes, and then set up the workflow. As always, with explicit target, you can avoid wasting time.</p>
 ]]></content>
   </entry>
   
